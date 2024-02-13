@@ -1,0 +1,30 @@
+.single_post{
+    width: 100%;
+    padding-top: 150px;
+}
+
+.single_post_inner{
+    width: 1200px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.content_single_p{
+    width: 100%;
+}
+
+.content_single_p * img {
+    max-width: 80%;
+}
+
+.ql-align-right{
+    text-align: right;
+}
+.ql-align-center{
+    text-align: center;
+}
+.ql-align-left{
+    text-align: left;
+}

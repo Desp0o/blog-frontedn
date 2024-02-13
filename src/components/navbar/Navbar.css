@@ -1,0 +1,130 @@
+.navbar{
+    box-sizing: border-box;
+    height: 100px;
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+}
+
+.nav_header{
+    color: var(--brown);
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.nav_links{
+    display: flex;
+    gap: 50px;
+}
+
+.nav_link_item{
+    color: var(--brown);
+    font-size: 16px;
+}
+
+.nav_auth{
+    display: flex;
+    gap: 10px;
+}
+
+.nav_auth_item_filled{
+    box-sizing: border-box;
+    width: 123px;
+    height: 38px;
+    background-color: var(--brown);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid var(--brown);
+    border-radius: 30px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_auth_item_stroked{
+    box-sizing: border-box;
+    width: 123px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid var(--brown);
+    border-radius: 30px;
+    color: var(--brown);
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+.authorized_user{
+    position: relative;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.small_btn{
+    width: 80px;
+    height: 28px;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brown);
+    border-radius: 30px;
+    color: var(--white);
+
+    cursor: pointer;
+}
+
+.user_name{
+    color: var(--brown);
+}
+
+.avatar{
+    width: 30px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.avatar_dashboard{
+    padding: 10px;
+    position: absolute;
+
+    top: 0px;
+    right: 0px;
+
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--brown);
+    gap: 10px;
+    text-wrap: nowrap;
+    background-color: var(--white);
+}
+
+.avatar_dashboard_closed{
+    display: none;
+}
+
+.logout_btn{
+    cursor: pointer;
+}

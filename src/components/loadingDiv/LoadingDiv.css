@@ -1,0 +1,23 @@
+.loading_div{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    width: 200px;
+    height: 200px;
+    max-width: 90%;
+    max-height: auto;
+
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading_div p {
+    font-size: 1.5rem;
+    color: white;
+}
